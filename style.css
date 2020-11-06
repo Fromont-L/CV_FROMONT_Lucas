@@ -1,0 +1,112 @@
+body {
+	background: linear-gradient(#587C6B, #D8E9E1);
+	font-size : 14px;
+	font-family : 'sans-serif', Noto Sans, sans-serif
+}
+
+
+.info {
+  display: table;
+  align-items: center;
+  width: 20%;
+  height: auto;
+  margin: 1%;
+  padding: 0px;
+  border: 3px solid black;
+  text-align: center;
+}
+
+
+.jeej{
+    vertical-align: center;
+    margin-right: 10%;
+    display: table-caption;
+    float: right;
+   width:159px;
+   height: 159px;
+   clip-path:ellipse(50% 50%);
+}
+
+.photo {
+	width: auto;
+}
+
+.année {
+	vertical-align: top;
+	display: block;
+}
+
+.texte {
+	vertical-align: top;
+	display: block;
+}
+
+table {
+	border-collapse:collapse
+}
+
+th {
+	width: 20%;
+	background-color: #eeeeee;
+	padding: 2% 2% 2% 2%;
+}
+
+td {
+	padding: 2% 2% 2% 2%;
+	background-color: #f8f8f8;
+}
+
+
+header {
+    background-image: url("Entête.jpg");
+    background-size: cover;
+}
+header img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+header h1 {
+	font-family: 'cursive' Comic Sans MS, Comic Sans, cursive;
+    font-size: 25pt;
+    color: #330303;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h2 {
+
+	text-align: center;
+
+}
+
+
+
+a {
+    background-color: #FFFFFF;
+    color:  #4CAF50;
+    font-weight: bold; 
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border: 2px solid #4CAF50;
+    border-radius: 6px;
+}
+
+a:hover {
+    background-color: #4CAF50;
+    color: black;
+}
+
+.dl {
+  border: 2px grey;
+  padding: 0.1%;
+  margin-left: 70%;
+}
